@@ -8,7 +8,7 @@
     "test": "nx test",
     "postinstall": "remix setup node"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@nrwl/next": "14.5.1",
     "@nrwl/remix": "14.4.2",
