@@ -1,0 +1,10 @@
+{
+  "name": "@westie-dev/complex",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "@westie-dev/simple": "*"
+  }
+}
