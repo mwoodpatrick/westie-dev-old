@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@westie-dev/hello-tsc": ["packages/hello-tsc/src/index.ts"]
+      "@westie-dev/hello-tsc": ["packages/hello-tsc/src/index.ts"],
+      "@westie-dev/hello-tsc-swc": ["packages/hello-tsc-swc/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
