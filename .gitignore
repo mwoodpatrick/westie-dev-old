@@ -44,3 +44,6 @@ apps/**/.cache
 
 # Next.js
 .next
+
+# output logging
+console.log
