@@ -49,7 +49,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/simple-node-app"],
+      "outputs": ["{workspaceRoot}/coverage/apps/simple-node-app"],
       "options": {
         "jestConfig": "apps/simple-node-app/jest.config.ts",
         "passWithNoTests": true

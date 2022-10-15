@@ -44,7 +44,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/site-next"],
+      "outputs": ["{workspaceRoot}/coverage/apps/site-next"],
       "options": {
         "jestConfig": "apps/site-next/jest.config.ts",
         "passWithNoTests": true
