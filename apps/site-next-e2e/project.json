@@ -1,4 +1,5 @@
 {
+  "name": "site-next-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/site-next-e2e/src",
   "projectType": "application",
