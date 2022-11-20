@@ -3,7 +3,9 @@
 
 This project was generated using [Nx](https://nx.dev).
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://mwoodpatrick-effective-pancake-p75ww69p9w277rv.github.dev/)
+
+![Using Nx](https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png "")
 
 🔎 **Smart, Fast and Extensible Build System**
 
@@ -82,7 +84,7 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 
 ### Distributed Computation Caching & Distributed Task Execution
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
+![Nx Cloud](https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png)
 
 Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
 
