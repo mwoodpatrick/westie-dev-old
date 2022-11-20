@@ -25,5 +25,6 @@
     }
   },
   "tags": [],
-  "implicitDependencies": ["site-next"]
+  "implicitDependencies": ["site-next"],
+  "name": "site-next-e2e"
 }
