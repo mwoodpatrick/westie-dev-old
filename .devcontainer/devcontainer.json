@@ -1,5 +1,9 @@
 {
 	"name": "My NxMonorepo powered by Nx, Remix, Node.js & TypeScript",
+	"forwardPorts": [
+		3000,
+		43200
+	],
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:16-bullseye",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-from-docker:1": {},
