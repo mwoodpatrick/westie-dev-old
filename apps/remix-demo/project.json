@@ -1,7 +1,7 @@
 {
-  "name": "demo",
+  "name": "remix-demo",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/demo",
+  "sourceRoot": "apps/remix-demo",
   "projectType": "application",
   "tags": []
 }
