@@ -27,17 +27,17 @@ export default async function (tree: Tree, _options: NxRemixGeneratorSchema) {
   const installTask = addDependenciesToPackageJson(
     tree,
     {
-      '@remix-run/react': '^1.0.6',
-      react: '^17.0.2',
-      'react-dom': '^17.0.2',
-      remix: '^1.0.6',
-      '@remix-run/serve': '^1.0.6',
+      '@remix-run/react': '^1.7.6',
+      react: '^18.2.0',
+      'react-dom': '^18.2.0',
+      remix: '^1.7.6',
+      '@remix-run/serve': '^1.7.6',
     },
     {
-      '@remix-run/dev': '^1.0.6',
-      '@types/react': '^17.0.24',
-      '@types/react-dom': '^17.0.9',
-      typescript: '~4.4.3',
+      '@remix-run/dev': '^1.7.6',
+      '@types/react': '^18.0.20',
+      '@types/react-dom': '^18.0.6',
+      typescript: '~4.8.4',
     }
   );
   tasks.push(installTask);
