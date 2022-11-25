@@ -1,0 +1,32 @@
+nvm --version: v0.39.0
+$SHELL: /bin/bash
+$SHLVL: 1
+whoami: 'mwoodpatrick'
+${HOME}: /home/mwoodpatrick
+${NVM_DIR}: '${HOME}/.nvm'
+${PATH}: /${HOME}/.dvm/bin:${HOME}/.deno/bin:/projects/git/android/bin:${HOME}/.local/bin:${HOME}/bin:${HOME}/.deno/bin:${HOME}/.poetry/bin:${HOME}/.dvm/bin:${NVM_DIR}/versions/node/v19.1.0/bin:${HOME}/.cargo/bin:/${HOME}/.dvm/bin:${HOME}/.deno/bin:/projects/git/android/bin:${HOME}/.local/bin:${HOME}/bin:/usr/share/Modules/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/PowerShell/7:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/mlwp/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/users/mlwp/bin/bin/:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/mlwp/scoop/shims:/mnt/c/Users/mlwp/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mlwp/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/mlwp/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mlwp/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/mlwp/AppData/Local/Yarn/bin:/mnt/c/Users/mlwp/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/RedHat/Podman:/mnt/c/Users/mlwp/go/bin:/mnt/c/Program Files/Sysinternals:${HOME}/.yarn/bin:${HOME}/.yarn/bin
+$PREFIX: ''
+${NPM_CONFIG_PREFIX}: ''
+$NVM_NODEJS_ORG_MIRROR: ''
+$NVM_IOJS_ORG_MIRROR: ''
+shell version: 'GNU bash, version 5.2.9(1)-release (x86_64-redhat-linux-gnu)'
+uname -a: 'Linux 5.15.74.2-microsoft-standard-WSL2 #1 SMP Wed Nov 2 19:50:29 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux'
+checksum binary: 'sha256sum'
+OS version: Fedora Linux 37 (Container Image)
+curl: /usr/bin/curl, curl 7.85.0 (x86_64-redhat-linux-gnu) libcurl/7.85.0 OpenSSL/3.0.5 zlib/1.2.12 brotli/1.0.9 libidn2/2.3.4 libpsl/0.21.1 (+libidn2/2.3.3) libssh/0.10.4/openssl/zlib nghttp2/1.51.0
+wget: /usr/bin/wget, GNU Wget 1.21.3 built on linux-gnu.
+git: /usr/bin/git, git version 2.38.1
+grep: /usr/bin/grep (grep --color=auto), grep (GNU grep) 3.7
+awk: /usr/bin/awk, GNU Awk 5.1.1, API: 3.1 (GNU MPFR 4.1.0-p13, GNU MP 6.2.1)
+sed: /usr/bin/sed, sed (GNU sed) 4.8
+cut: /usr/bin/cut, cut (GNU coreutils) 9.1
+basename: /usr/bin/basename, basename (GNU coreutils) 9.1
+rm: /usr/bin/rm, rm (GNU coreutils) 9.1
+mkdir: /usr/bin/mkdir, mkdir (GNU coreutils) 9.1
+xargs: /usr/bin/xargs, xargs (GNU findutils) 4.9.0
+nvm current: v19.1.0
+which node: ${NVM_DIR}/versions/node/v19.1.0/bin/node
+which iojs: which: no iojs in (/${HOME}/.dvm/bin:${HOME}/.deno/bin:/projects/git/android/bin:${HOME}/.local/bin:${HOME}/bin:${HOME}/.deno/bin:${HOME}/.poetry/bin:${HOME}/.dvm/bin:${NVM_DIR}/versions/node/v19.1.0/bin:${HOME}/.cargo/bin:/${HOME}/.dvm/bin:${HOME}/.deno/bin:/projects/git/android/bin:${HOME}/.local/bin:${HOME}/bin:/usr/share/Modules/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/PowerShell/7:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/mlwp/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/users/mlwp/bin/bin/:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/mlwp/scoop/shims:/mnt/c/Users/mlwp/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mlwp/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/mlwp/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mlwp/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/mlwp/AppData/Local/Yarn/bin:/mnt/c/Users/mlwp/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/RedHat/Podman:/mnt/c/Users/mlwp/go/bin:/mnt/c/Program Files/Sysinternals:${HOME}/.yarn/bin:${HOME}/.yarn/bin)
+which npm: ${NVM_DIR}/versions/node/v19.1.0/bin/npm
+npm config get prefix: ${NVM_DIR}/versions/node/v19.1.0
+npm root -g: ${NVM_DIR}/versions/node/v19.1.0/lib/node_modules

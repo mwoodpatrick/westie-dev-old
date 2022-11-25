@@ -1,0 +1,19 @@
+       v18.11.0 *
+       v18.12.1 *
+        v19.0.0 *
+        v19.0.1 *
+->      v19.1.0 *
+default -> node (-> v19.1.0 *)
+iojs -> N/A (default)
+node -> stable (-> v19.1.0 *) (default)
+stable -> 19.1 (-> v19.1.0 *) (default)
+unstable -> N/A (default)
+lts/* -> lts/hydrogen (-> v18.12.1 *)
+lts/argon -> v4.9.1 (-> N/A)
+lts/boron -> v6.17.1 (-> N/A)
+lts/carbon -> v8.17.0 (-> N/A)
+lts/dubnium -> v10.24.1 (-> N/A)
+lts/erbium -> v12.22.12 (-> N/A)
+lts/fermium -> v14.21.1 (-> N/A)
+lts/gallium -> v16.18.1 (-> N/A)
+lts/hydrogen -> v18.12.1 *
