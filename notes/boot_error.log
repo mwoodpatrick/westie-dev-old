@@ -1,0 +1,281 @@
+[100 ms] Dev Containers 0.264.0 in VS Code 1.74.0-insider (d0e44be43287acadb13f7c2808332e00fe52568d).
+[99 ms] Start: Run: wsl -d westie -e wslpath -u \\wsl.localhost\westie\projects\git\mwoodpatrick\westie-dev
+[641 ms] Start: Resolving Remote
+[659 ms] Start: Run: wsl -d westie -e wslpath -u \\wsl.localhost\westie\projects\git\mwoodpatrick\westie-dev
+[1071 ms] Start: Run: wsl -d westie -e /bin/sh -c cd '/projects/git/mwoodpatrick/westie-dev' && /bin/sh
+[1093 ms] Start: Run in host: id -un
+[1343 ms] mwoodpatrick
+[1343 ms] 
+[1343 ms] Start: Run in host: cat /etc/passwd
+[1347 ms] Start: Run in host: echo ~
+[1349 ms] /home/mwoodpatrick
+[1349 ms] 
+[1350 ms] Start: Run in host: test -x '/home/mwoodpatrick/.vscode-remote-containers/bin/d0e44be43287acadb13f7c2808332e00fe52568d/node'
+[1355 ms] 
+[1356 ms] 
+[1356 ms] Exit code 1
+[1357 ms] Start: Run in host: test -x '/home/mwoodpatrick/.vscode-server-insiders/bin/d0e44be43287acadb13f7c2808332e00fe52568d/node'
+[1359 ms] 
+[1359 ms] 
+[1359 ms] Start: Run in host: test -f '/home/mwoodpatrick/.vscode-server-insiders/bin/d0e44be43287acadb13f7c2808332e00fe52568d/node_modules/node-pty/package.json'
+[1361 ms] 
+[1361 ms] 
+[1362 ms] Start: Run in host: test -f '/home/mwoodpatrick/.vscode-remote-containers/dist/vscode-remote-containers-server-0.264.0.js'
+[1364 ms] 
+[1364 ms] 
+[1368 ms] userEnvProbe: loginInteractiveShell (default)
+[1369 ms] userEnvProbe shell: /bin/bash
+[3144 ms] userEnvProbe PATHs:
+Probe:     '/home/mwoodpatrick/.deno/bin:/home/mwoodpatrick/.poetry/bin:/home/mwoodpatrick/.dvm/bin:/home/mwoodpatrick/.nvm/versions/node/v19.1.0/bin:/home/mwoodpatrick/.cargo/bin://home/mwoodpatrick/.dvm/bin:/home/mwoodpatrick/.deno/bin:/projects/git/android/bin:/home/mwoodpatrick/.local/bin:/home/mwoodpatrick/bin:/usr/share/Modules/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/PowerShell/7:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/mlwp/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/users/mlwp/bin/bin/:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/mlwp/scoop/shims:/mnt/c/Users/mlwp/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mlwp/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/mlwp/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mlwp/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/mlwp/AppData/Local/Yarn/bin:/mnt/c/Users/mlwp/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/RedHat/Podman:/mnt/c/Users/mlwp/go/bin:/mnt/c/Program Files/Sysinternals:/home/mwoodpatrick/.yarn/bin'
+Container: None
+[3147 ms] Setting up container for folder or workspace: /projects/git/mwoodpatrick/westie-dev
+[3153 ms] Start: Check Docker is running
+[3154 ms] Start: Run in Host: podman version --format {{.Server.APIVersion}}
+[4462 ms] Server API version: 4.4.0-dev
+[4463 ms] Start: Run in Host: podman volume ls -q
+[5571 ms] Start: Run in Host: podman ps -q -a --filter label=vsch.local.folder=\\wsl.localhost\westie\projects\git\mwoodpatrick\westie-dev --filter label=vsch.quality=insider
+[6641 ms] Start: Run in Host: podman ps -q -a --filter label=devcontainer.local_folder=\\wsl.localhost\westie\projects\git\mwoodpatrick\westie-dev
+[7639 ms] Start: Run in Host: /home/mwoodpatrick/.vscode-server-insiders/bin/d0e44be43287acadb13f7c2808332e00fe52568d/node /home/mwoodpatrick/.vscode-remote-containers/dist/dev-containers-cli-0.264.0/dist/spec-node/devContainersSpecCLI.js up --docker-path podman --workspace-folder /projects/git/mwoodpatrick/westie-dev --workspace-mount-consistency cached --id-label devcontainer.local_folder=\\wsl.localhost\westie\projects\git\mwoodpatrick\westie-dev --log-level debug --log-format json --config /projects/git/mwoodpatrick/westie-dev/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root true --terminal-columns 101 --terminal-rows 14
+[7925 ms] (node:52123) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[7926 ms] (Use `node --trace-deprecation ...` to show where the warning was created)
+[7944 ms] @devcontainers/cli 0.24.0. Node.js v16.14.2. linux 5.15.74.2-microsoft-standard-WSL2 x64.
+[7944 ms] Start: Run: podman buildx version
+[7992 ms] 
+[7993 ms] Error: unrecognized command `podman buildx version`
+Try 'podman buildx --help' for more information
+
+[7993 ms] Exit code 125
+[7993 ms] Start: Resolving Remote
+[7997 ms] Start: Run: git rev-parse --show-cdup
+[8008 ms] Start: Run: podman ps -q -a --filter label=devcontainer.local_folder=\\wsl.localhost\westie\projects\git\mwoodpatrick\westie-dev
+[9206 ms] Start: Run: podman inspect --type image mcr.microsoft.com/devcontainers/typescript-node:18-bullseye
+[10412 ms] local container features stored at: /home/mwoodpatrick/.vscode-remote-containers/dist/dev-containers-cli-0.264.0/dist/node_modules/vscode-dev-containers/container-features
+[10413 ms] Start: Run: tar --no-same-owner -x -f -
+[10469 ms] * Processing feature: ghcr.io/devcontainers/features/docker-from-docker:1
+[11115 ms] * Processing feature: ghcr.io/devcontainers/features/git:1
+[11957 ms] * Processing feature: ghcr.io/devcontainers/features/github-cli:1
+[12485 ms] * Processing feature: ghcr.io/mpriscella/features/kind:1
+[13182 ms] * Processing feature: ghcr.io/devcontainers-contrib/features/deno:1
+[13739 ms] * Processing feature: ghcr.io/devcontainers-contrib/features/digitalocean-cli:1
+[14209 ms] * Processing feature: ghcr.io/devcontainers-contrib/features/jest:1
+[14867 ms] * Processing feature: ghcr.io/devcontainers-contrib/features/typescript:1
+[15310 ms] * Fetching feature: docker-from-docker_1_oci
+[16396 ms] * Fetching feature: git_2_oci
+[17193 ms] * Fetching feature: github-cli_3_oci
+[17904 ms] * Fetching feature: kind_4_oci
+[18676 ms] * Fetching feature: deno_5_oci
+[19600 ms] * Fetching feature: digitalocean-cli_6_oci
+[20448 ms] * Fetching feature: jest_7_oci
+[21266 ms] * Fetching feature: typescript_8_oci
+[22093 ms] Start: Run: podman build -t dev_container_feature_content_temp -f /tmp/devcontainercli-mwoodpatrick/container-features/0.24.0-1669382104818/Dockerfile.buildContent /tmp/devcontainercli-mwoodpatrick/container-features/0.24.0-1669382104818
+STEP 1/2: FROM scratch
+STEP 2/2: COPY . /tmp/build-features/
+--> Using cache de16027bc1527fc372a08cacd385ad2c434d5906899481c13905458005d72f5d
+COMMIT dev_container_feature_content_temp
+--> de16027bc15
+Successfully tagged localhost/dev_container_feature_content_temp:latest
+de16027bc1527fc372a08cacd385ad2c434d5906899481c13905458005d72f5d
+[24843 ms] Start: Run: podman build --build-arg _DEV_CONTAINERS_BASE_IMAGE=mcr.microsoft.com/devcontainers/typescript-node:18-bullseye --build-arg _DEV_CONTAINERS_IMAGE_USER=root --build-arg _DEV_CONTAINERS_FEATURE_CONTENT_SOURCE=dev_container_feature_content_temp --target dev_containers_target_stage -t vsc-westie-dev-88e1a985b618c4fbeb64fddc6e637f63-features -f /tmp/devcontainercli-mwoodpatrick/container-features/0.24.0-1669382104818/Dockerfile.extended /tmp/devcontainercli-mwoodpatrick/empty-folder
+[1/3] STEP 1/1: FROM dev_container_feature_content_temp AS dev_containers_feature_content_source
+--> de16027bc15
+[2/3] STEP 1/4: FROM mcr.microsoft.com/devcontainers/typescript-node:18-bullseye AS dev_containers_feature_content_normalize
+[2/3] STEP 2/4: USER root
+--> Using cache be6bf7a15b0a361f64d268113ee2066f563039e663624d26c8f5c70d4130b2dd
+--> be6bf7a15b0
+[2/3] STEP 3/4: COPY --from=dev_containers_feature_content_source /tmp/build-features/ /tmp/build-features/
+--> Using cache 0ab353691793ee7f36a0bc85c355f7c951c891af22019cc70a494d93087d5666
+--> 0ab35369179
+[2/3] STEP 4/4: RUN chmod -R 0700 /tmp/build-features
+--> Using cache ce116cb24d4f06f8d7775a8388af95684995eb45d6eef7dbe0fd848ba828f072
+--> ce116cb24d4
+[3/3] STEP 1/16: FROM mcr.microsoft.com/devcontainers/typescript-node:18-bullseye AS dev_containers_target_stage
+[3/3] STEP 2/16: USER root
+--> Using cache be6bf7a15b0a361f64d268113ee2066f563039e663624d26c8f5c70d4130b2dd
+--> be6bf7a15b0
+[3/3] STEP 3/16: COPY --from=dev_containers_feature_content_normalize /tmp/build-features /tmp/build-features
+--> Using cache 7a38480569720c76e46ad68b0bead2934438734c42081c3813cc094635d2c847
+--> 7a384805697
+[3/3] STEP 4/16: RUN echo "_CONTAINER_USER_HOME=$(getent passwd root | cut -d: -f6)" >> /tmp/build-features/devcontainer-features.builtin.env && echo "_REMOTE_USER_HOME=$(getent passwd node | cut -d: -f6)" >> /tmp/build-features/devcontainer-features.builtin.env
+--> Using cache efa786a0aa810038b65ade624d2d0289104453234091efb49a82e21babc0ca96
+--> efa786a0aa8
+[3/3] STEP 5/16: RUN cd /tmp/build-features/deno_5 && chmod +x ./devcontainer-features-install.sh && ./devcontainer-features-install.sh
+--> Using cache 3682886d7fd5ffe00f937f0486eedc1acb8bbb3f6b64998b48f8bd19686ce0f4
+--> 3682886d7fd
+[3/3] STEP 6/16: RUN cd /tmp/build-features/digitalocean-cli_6 && chmod +x ./devcontainer-features-install.sh && ./devcontainer-features-install.sh
+--> Using cache 2abc2a7665cd3ed9490658cca80a49161fd4a26b071ab2b75dbff0c3057d3197
+--> 2abc2a7665c
+[3/3] STEP 7/16: RUN cd /tmp/build-features/jest_7 && chmod +x ./devcontainer-features-install.sh && ./devcontainer-features-install.sh
+--> Using cache d162bf74070e02c4dfc172c9513f0db3ccafcdef0db67e36374964e2ad6d8c77
+--> d162bf74070
+[3/3] STEP 8/16: RUN cd /tmp/build-features/typescript_8 && chmod +x ./devcontainer-features-install.sh && ./devcontainer-features-install.sh
+--> Using cache dca5dafb00ce9b647cd5f5b56fac5e152eb97a9ae0b4e5dcb27202179117bb66
+--> dca5dafb00c
+[3/3] STEP 9/16: ENV DOCKER_BUILDKIT=1
+--> Using cache 76890106b0600dc90bb5de1840d363fd630a61f7c9e107bf4bb699ef15eaed1c
+--> 76890106b06
+[3/3] STEP 10/16: RUN cd /tmp/build-features/docker-from-docker_1 && chmod +x ./devcontainer-features-install.sh && ./devcontainer-features-install.sh
+--> Using cache dc56ac9f2407c5d2c40a95b2e2ea32a504d61c8f21df909921437ee620d2b9ee
+--> dc56ac9f240
+[3/3] STEP 11/16: RUN cd /tmp/build-features/git_2 && chmod +x ./devcontainer-features-install.sh && ./devcontainer-features-install.sh
+--> Using cache 0cf3f2753e64c6f9c9dc3d0f2e0e0c572272680c97509b80d9236d233fb60ac7
+--> 0cf3f2753e6
+[3/3] STEP 12/16: RUN cd /tmp/build-features/github-cli_3 && chmod +x ./devcontainer-features-install.sh && ./devcontainer-features-install.sh
+--> Using cache e14420046af1bee15e29a887454a36879e57059d325d81297a1d7724128e6166
+--> e14420046af
+[3/3] STEP 13/16: RUN cd /tmp/build-features/kind_4 && chmod +x ./devcontainer-features-install.sh && ./devcontainer-features-install.sh
+--> Using cache 6df45e73ef129bf8489931dee69bac36526a3094722fe53d982705f4af9568da
+--> 6df45e73ef1
+[3/3] STEP 14/16: ARG _DEV_CONTAINERS_IMAGE_USER=root
+--> Using cache c34b8ad12a022551f54bd42756771a82ed2319aba759e73ce1dacd2a0104238e
+--> c34b8ad12a0
+[3/3] STEP 15/16: USER $_DEV_CONTAINERS_IMAGE_USER
+--> Using cache a42dbfa3d418c3f6ea1bcb25f7c52ea0344d98723aac75d9c85b9b5f47a4d6ed
+--> a42dbfa3d41
+[3/3] STEP 16/16: LABEL devcontainer.metadata="[ {\"id\":\"ghcr.io/devcontainers/features/common-utils:1\"}, {\"id\":\"ghcr.io/devcontainers/features/node:1\",\"customizations\":{\"vscode\":{\"extensions\":[\"dbaeumer.vscode-eslint\"]}}}, {\"id\":\"ghcr.io/devcontainers/features/git:1\"}, {\"customizations\":{\"vscode\":{\"extensions\":[\"dbaeumer.vscode-eslint\"]}},\"remoteUser\":\"node\"}, {\"id\":\"ghcr.io/devcontainers/features/git:1\"}, {\"customizations\":{\"vscode\":{\"extensions\":[\"dbaeumer.vscode-eslint\"]}},\"remoteUser\":\"node\"}, {\"id\":\"ghcr.io/devcontainers-contrib/features/deno:1\"}, {\"id\":\"ghcr.io/devcontainers-contrib/features/digitalocean-cli:1\"}, {\"id\":\"ghcr.io/devcontainers-contrib/features/jest:1\"}, {\"id\":\"ghcr.io/devcontainers-contrib/features/typescript:1\"}, {\"id\":\"ghcr.io/devcontainers/features/docker-from-docker:1\",\"entrypoint\":\"/usr/local/share/docker-init.sh\",\"mounts\":[{\"source\":\"/var/run/docker.sock\",\"target\":\"/var/run/docker-host.sock\",\"type\":\"bind\"}],\"customizations\":{\"vscode\":{\"extensions\":[\"ms-azuretools.vscode-docker\"]}}}, {\"id\":\"ghcr.io/devcontainers/features/git:1\"}, {\"id\":\"ghcr.io/devcontainers/features/github-cli:1\"}, {\"id\":\"ghcr.io/mpriscella/features/kind:1\"} ]"
+--> Using cache 9c08d1a5e8a7c1619dcb26721bff00ed81472059f64acb8d9efad4aec596811e
+[3/3] COMMIT vsc-westie-dev-88e1a985b618c4fbeb64fddc6e637f63-features
+--> 9c08d1a5e8a
+[Warning] one or more build args were not consumed: [_DEV_CONTAINERS_FEATURE_CONTENT_SOURCE]
+Successfully tagged localhost/vsc-westie-dev-88e1a985b618c4fbeb64fddc6e637f63-features:latest
+9c08d1a5e8a7c1619dcb26721bff00ed81472059f64acb8d9efad4aec596811e
+[27946 ms] Start: Run: podman build -f /tmp/devcontainercli-mwoodpatrick/updateUID.Dockerfile-0.24.0 -t vsc-westie-dev-88e1a985b618c4fbeb64fddc6e637f63-features-uid --build-arg BASE_IMAGE=vsc-westie-dev-88e1a985b618c4fbeb64fddc6e637f63-features --build-arg REMOTE_USER=node --build-arg NEW_UID=1000 --build-arg NEW_GID=1000 --build-arg IMAGE_USER=root /tmp/devcontainercli-mwoodpatrick/empty-folder
+STEP 1/9: FROM vsc-westie-dev-88e1a985b618c4fbeb64fddc6e637f63-features
+STEP 2/9: USER root
+--> Using cache 1a8fb115260d770e5cd6efe215f44f5baab548380a8e77ace425a323ab531aef
+--> 1a8fb115260
+STEP 3/9: ARG REMOTE_USER
+--> Using cache 23ffaf358210d6d87a7171e0318ecae72ce801dddb3211e73bd76cb415f48d41
+--> 23ffaf35821
+STEP 4/9: ARG NEW_UID
+--> Using cache 153066b77a6a72d84697439faf10dd9e483a4b585f71902e66cb5188ef2e4f82
+--> 153066b77a6
+STEP 5/9: ARG NEW_GID
+--> Using cache 0bd42d227a267b157cd4dbc8c0141fb16c024baced20788814d1f9d2f5194a1a
+--> 0bd42d227a2
+STEP 6/9: SHELL ["/bin/sh", "-c"]
+--> Using cache 96e175480efaeae1ca7b55e2c6c3e7f99b42548e230018bd86b99c4792546085
+--> 96e175480ef
+STEP 7/9: RUN eval $(sed -n "s/${REMOTE_USER}:[^:]*:\([^:]*\):\([^:]*\):[^:]*:\([^:]*\).*/OLD_UID=\1;OLD_GID=\2;HOME_FOLDER=\3/p" /etc/passwd);      eval $(sed -n "s/\([^:]*\):[^:]*:${NEW_UID}:.*/EXISTING_USER=\1/p" /etc/passwd);     eval $(sed -n "s/\([^:]*\):[^:]*:${NEW_GID}:.*/EXISTING_GROUP=\1/p" /etc/group);     if [ -z "$OLD_UID" ]; then          echo "Remote user not found in /etc/passwd ($REMOTE_USER).";         elif [ "$OLD_UID" = "$NEW_UID" -a "$OLD_GID" = "$NEW_GID" ]; then     echo "UIDs and GIDs are the same ($NEW_UID:$NEW_GID).";  elif [ "$OLD_UID" != "$NEW_UID" -a -n "$EXISTING_USER" ]; then               echo "User with UID exists ($EXISTING_USER=$NEW_UID).";   elif [ "$OLD_GID" != "$NEW_GID" -a -n "$EXISTING_GROUP" ]; then              echo "Group with GID exists ($EXISTING_GROUP=$NEW_GID).";    else       echo "Updating UID:GID from $OLD_UID:$OLD_GID to $NEW_UID:$NEW_GID.";                sed -i -e "s/\(${REMOTE_USER}:[^:]*:\)[^:]*:[^:]*/\1${NEW_UID}:${NEW_GID}/" /etc/passwd;             if [ "$OLD_GID" != "$NEW_GID" ]; then                   sed -i -e "s/\([^:]*:[^:]*:\)${OLD_GID}:/\1${NEW_GID}:/" /etc/group;                 fi;             chown -R $NEW_UID:$NEW_GID $HOME_FOLDER;     fi;
+--> Using cache 7d57a48ca5600f0dc99a0805fd0c4f5773f7195819c7714d61dc25a78c78309c
+--> 7d57a48ca56
+STEP 8/9: ARG IMAGE_USER
+--> Using cache 78d5e409895d31e7350a13d645960dba2a103794ba486d7931f401c6daeb846a
+--> 78d5e409895
+STEP 9/9: USER $IMAGE_USER
+--> Using cache 0c9a1c13b03f2cc1fe5b83ce6c532acf782902898e4a301bf4f9ea2ae6019f90
+COMMIT vsc-westie-dev-88e1a985b618c4fbeb64fddc6e637f63-features-uid
+--> 0c9a1c13b03
+Successfully tagged localhost/vsc-westie-dev-88e1a985b618c4fbeb64fddc6e637f63-features-uid:latest
+0c9a1c13b03f2cc1fe5b83ce6c532acf782902898e4a301bf4f9ea2ae6019f90
+[29668 ms] Start: Run: podman -v
+[29764 ms] Start: Run: podman events --format json --filter event=start
+[29771 ms] Start: Starting container
+[29771 ms] Start: Run: podman run --sig-proxy=false -a STDOUT -a STDERR --mount type=bind,source=/projects/git/mwoodpatrick/westie-dev,target=/workspaces/westie-dev --mount type=bind,src=/var/run/docker.sock,dst=/var/run/docker-host.sock --mount type=volume,src=vscode,dst=/vscode -l devcontainer.local_folder=\\wsl.localhost\westie\projects\git\mwoodpatrick\westie-dev --entrypoint /bin/sh vsc-westie-dev-88e1a985b618c4fbeb64fddc6e637f63-features-uid -c echo Container started
+Container started
+nogroup:x:65534:
+[30753 ms] Start: Run: podman inspect --type container 95d9b450f4df3626e18851716ac6f6401a68d07de8f5b55ef019aff56dea3526
+[31849 ms] Start: Run: podman ps -q -a --filter label=devcontainer.local_folder=\\wsl.localhost\westie\projects\git\mwoodpatrick\westie-dev
+[33008 ms] Start: Run: podman inspect --type container 95d9b450f4df
+[34044 ms] Start: Inspecting container
+[34045 ms] Start: Run: podman inspect --type container 95d9b450f4df3626e18851716ac6f6401a68d07de8f5b55ef019aff56dea3526
+[35095 ms] Start: Run in container: /bin/sh
+[35102 ms] Start: Run in container: uname -m
+[36050 ms] x86_64
+[36050 ms] 
+[36051 ms] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[36054 ms] PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+[36054 ms] 
+[36054 ms] Start: Run in container: cat /etc/passwd
+[36061 ms] Start: Run in container: test -f '/var/devcontainer/.patchEtcEnvironmentMarker'
+[36063 ms] 
+[36063 ms] 
+[36063 ms] Exit code 1
+[36064 ms] Start: Run in container: /bin/sh
+[36071 ms] Start: Run in container: test ! -f '/var/devcontainer/.patchEtcEnvironmentMarker' && set -o noclobber && mkdir -p '/var/devcontainer' && { > '/var/devcontainer/.patchEtcEnvironmentMarker' ; } 2> /dev/null
+[37080 ms] 
+[37080 ms] 
+[37081 ms] Start: Run in container: cat >> /etc/environment <<'etcEnvrionmentEOF'
+[37084 ms] 
+[37084 ms] 
+[37084 ms] Start: Run in container: test -f '/var/devcontainer/.patchEtcProfileMarker'
+[37086 ms] 
+[37086 ms] 
+[37086 ms] Exit code 1
+[37086 ms] Start: Run in container: test ! -f '/var/devcontainer/.patchEtcProfileMarker' && set -o noclobber && mkdir -p '/var/devcontainer' && { > '/var/devcontainer/.patchEtcProfileMarker' ; } 2> /dev/null
+[37090 ms] 
+[37090 ms] 
+[37090 ms] Start: Run in container: sed -i -E 's/((^|\s)PATH=)([^\$]*)$/\1${PATH:-\3}/g' /etc/profile || true
+[37100 ms] 
+[37100 ms] 
+[37120 ms] Start: Run in Host: podman inspect --type container 95d9b450f4df3626e18851716ac6f6401a68d07de8f5b55ef019aff56dea3526
+[38324 ms] Start: Run in Host: /home/mwoodpatrick/.vscode-server-insiders/bin/d0e44be43287acadb13f7c2808332e00fe52568d/node /home/mwoodpatrick/.vscode-remote-containers/dist/dev-containers-cli-0.264.0/dist/spec-node/devContainersSpecCLI.js read-configuration --docker-path podman --workspace-folder /projects/git/mwoodpatrick/westie-dev --id-label devcontainer.local_folder=\\wsl.localhost\westie\projects\git\mwoodpatrick\westie-dev --container-id 95d9b450f4df3626e18851716ac6f6401a68d07de8f5b55ef019aff56dea3526 --log-level debug --log-format json --config /projects/git/mwoodpatrick/westie-dev/.devcontainer/devcontainer.json --mount-workspace-git-root true
+[38622 ms] (node:52652) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[38622 ms] (Use `node --trace-deprecation ...` to show where the warning was created)
+[38630 ms] @devcontainers/cli 0.24.0. Node.js v16.14.2. linux 5.15.74.2-microsoft-standard-WSL2 x64.
+[38630 ms] Start: Run: git rev-parse --show-cdup
+[38648 ms] Start: Run: podman inspect --type container 95d9b450f4df3626e18851716ac6f6401a68d07de8f5b55ef019aff56dea3526
+[39719 ms] Start: Run in Host: /home/mwoodpatrick/.vscode-server-insiders/bin/d0e44be43287acadb13f7c2808332e00fe52568d/node /home/mwoodpatrick/.vscode-remote-containers/dist/dev-containers-cli-0.264.0/dist/spec-node/devContainersSpecCLI.js read-configuration --docker-path podman --workspace-folder /projects/git/mwoodpatrick/westie-dev --id-label devcontainer.local_folder=\\wsl.localhost\westie\projects\git\mwoodpatrick\westie-dev --container-id 95d9b450f4df3626e18851716ac6f6401a68d07de8f5b55ef019aff56dea3526 --log-level debug --log-format json --config /projects/git/mwoodpatrick/westie-dev/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root true
+[39995 ms] (node:52680) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[39995 ms] (Use `node --trace-deprecation ...` to show where the warning was created)
+[40007 ms] @devcontainers/cli 0.24.0. Node.js v16.14.2. linux 5.15.74.2-microsoft-standard-WSL2 x64.
+[40006 ms] Start: Run: git rev-parse --show-cdup
+[40026 ms] Start: Run: podman inspect --type container 95d9b450f4df3626e18851716ac6f6401a68d07de8f5b55ef019aff56dea3526
+[41075 ms] Start: Inspecting container
+[41075 ms] Start: Run in Host: podman inspect --type container 95d9b450f4df3626e18851716ac6f6401a68d07de8f5b55ef019aff56dea3526
+[42189 ms] Start: Run in Host: podman exec -i -u node -e VSCODE_REMOTE_CONTAINERS_SESSION=7534276b-6dee-44dc-88cc-0679a8ca97001669382093121 95d9b450f4df3626e18851716ac6f6401a68d07de8f5b55ef019aff56dea3526 /bin/sh
+[42199 ms] Start: Run in container: uname -m
+[43344 ms] x86_64
+[43346 ms] 
+[43346 ms] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[43351 ms] PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+[43352 ms] 
+[43353 ms] Start: Run in container: cat /etc/passwd
+[43358 ms] Start: Updating configuration state
+[43361 ms] Start: Setup shutdown monitor
+[43364 ms] Forking shutdown monitor: c:\Users\mlwp\.vscode-insiders\extensions\ms-vscode-remote.remote-containers-0.264.0\dist\shutdown\shutdownMonitorProcess \\.\pipe\vscode-remote-containers-9dd13d3bdc06afc60cecab2c3c3276fbc131d12e-sock singleContainer Debug c:\Users\mlwp\AppData\Roaming\Code - Insiders\logs\20221125T050204\window1\exthost\ms-vscode-remote.remote-containers 1669382094407
+[43406 ms] Start: Run in container: test -d /root/.vscode-server-insiders
+[43411 ms] 
+[43412 ms] 
+[43412 ms] Exit code 1
+[43413 ms] Start: Run in container: test -d /root/.vscode-remote
+[43417 ms] 
+[43417 ms] 
+[43417 ms] Exit code 1
+[43418 ms] Start: Run in container: test ! -f '/root/.vscode-server-insiders/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/root/.vscode-server-insiders/data/Machine' && { > '/root/.vscode-server-insiders/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[43423 ms] 
+[43423 ms] mkdir: cannot create directory '/root': Permission denied
+[43424 ms] Exit code 1
+[43424 ms] Start: Run in container: cat /root/.vscode-server-insiders/data/Machine/settings.json
+[43428 ms] 
+[43428 ms] cat: /root/.vscode-server-insiders/data/Machine/settings.json: Permission denied
+[43428 ms] Exit code 1
+[43430 ms] Start: Run in container: test -d /root/.vscode-server-insiders/bin/d0e44be43287acadb13f7c2808332e00fe52568d-insider
+[43434 ms] 
+[43434 ms] 
+[43435 ms] Exit code 1
+[43435 ms] Start: Run in container: test -d /vscode/vscode-server-insiders/bin/linux-x64/d0e44be43287acadb13f7c2808332e00fe52568d-insider
+[43438 ms] 
+[43439 ms] 
+[43439 ms] Start: Run in container: mkdir -p '/root/.vscode-server-insiders/bin' && ln -snf '/vscode/vscode-server-insiders/bin/linux-x64/d0e44be43287acadb13f7c2808332e00fe52568d-insider' '/root/.vscode-server-insiders/bin/d0e44be43287acadb13f7c2808332e00fe52568d-insider'
+[43444 ms] 
+[43444 ms] mkdir: cannot create directory '/root': Permission denied
+[43444 ms] Exit code 1
+[43452 ms] Command in container failed: mkdir -p '/root/.vscode-server-insiders/bin' && ln -snf '/vscode/vscode-server-insiders/bin/linux-x64/d0e44be43287acadb13f7c2808332e00fe52568d-insider' '/root/.vscode-server-insiders/bin/d0e44be43287acadb13f7c2808332e00fe52568d-insider'
+[43452 ms] mkdir: cannot create directory '/root': Permission denied
+[43452 ms] Exit code 1
