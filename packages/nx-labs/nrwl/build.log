@@ -1,0 +1,36 @@
+
+ >  NX   RunStart
+
+   
+{
+  "meta": {},
+  "branch": null,
+  "runGroup": "acd70ed7c14bafa78c99570e48066241bfee3229",
+  "hashes": [
+    "060cc4c84d4f62b1d22a1f2b478d25510f744fff6fb46643e33b223ed1b38939"
+  ]
+}
+
+
+> nx run remix:build
+
+RunStart duration: 332
+Your library compilation option specifies that the compiler external helper (tslib) is needed but it is not installed.
+Compiling TypeScript files for project "remix"...
+Done compiling TypeScript files for project "remix".
+
+ >  NX   Nx Cloud: Storing 060cc4c84d4f62b1d22a1f2b478d25510f744fff6fb46643e33b223ed1b38939
+
+   STORAGE URL: https://nx-cache-production.s3-accelerate.amazonaws.com/060cc4c84d4f62b1d22a1f2b478d25510f744fff6fb46643e33b223ed1b38939?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221126T114805Z&X-Amz-SignedHeaders=content-type%3Bhost&X-Amz-Expires=18000&X-Amz-Credential=AKIAZCDOVASOE4QJT27M%2F20221126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d43faa645d81ed9ce272e9658e4418f8f8a9260623f7321d78bbc5472503ee9e
+
+
+ >  NX   Nx Cloud: Stored 060cc4c84d4f62b1d22a1f2b478d25510f744fff6fb46643e33b223ed1b38939
+
+
+ 
+
+ >  NX   Successfully ran target build for project remix
+
+
+   See Nx Cloud run details at https://nx.app/runs/R6LLlRrRgB
+
