@@ -1,0 +1,27 @@
+{
+  "name": "nx-ignore",
+  "version": "15.0.0",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrwl/nx-labs.git",
+    "directory": "packages/nx-ignore"
+  },
+  "keywords": [
+    "Monorepo",
+    "Next",
+    "Vercel"
+  ],
+  "author": "Jack Hsu",
+  "license": "MIT",
+  "homepage": "https://nx.dev",
+  "bin": {
+    "nx-ignore": "./src/index.js"
+  },
+  "dependencies": {
+    "@swc/helpers": "^0.4.11",
+    "nx": "~15.0.4",
+    "@nrwl/workspace": "~15.0.4",
+    "typescript": "~4.8.2"
+  }
+}
