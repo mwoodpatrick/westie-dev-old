@@ -1,0 +1,16 @@
+{
+  "name": "@nrwl/remix",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "generators": "./generators.json",
+  "dependencies": {
+    "@nrwl/devkit": "^15.2.1",
+    "@nrwl/js": "^15.2.1",
+    "@nrwl/react": "^15.2.1",
+    "tslib": "^2.4.1"
+  },
+  "ng-update": {
+    "requirements": {},
+    "migrations": "./migrations.json"
+  }
+}
